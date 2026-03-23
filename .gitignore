@@ -14,9 +14,6 @@ venv/
 .secrets/
 .streamlit/secrets.toml
 
-data/users.json
-
-
 
 .vscode/
 
