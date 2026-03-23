@@ -15,9 +15,17 @@
 ---
 
 # 🎓 Smart Academic Assistant
+
 > 🧠 AI-Powered Learning Assistant for Smart Study & Knowledge Retrieval
 
 ![Built with Streamlit](https://img.shields.io/badge/Built%20With-Streamlit-red)
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Try the App Here:**
+👉 https://smart-academic-assistant-3wasyzjxu5kjcl8mqr7psd.streamlit.app/
 
 ---
 
@@ -25,60 +33,60 @@
 
 **Smart Academic Assistant** is an AI-powered platform that helps students understand concepts efficiently using:
 
-- 📄 PDF-based learning  
-- 🤖 Generative AI answers (Gemini)  
-- 🔍 Semantic search using FAISS  
-- 🧠 Structured Mindmaps  
-- 📌 Key point extraction  
+* 📄 PDF-based learning
+* 🤖 Generative AI answers (Gemini)
+* 🔍 Semantic search using FAISS
+* 🧠 Structured Mindmaps
+* 📌 Key point extraction
 
 ---
 
 ## ✨ Features
 
-- 🔐 **User Authentication (Login/Register)**  
-- 📄 **Upload PDF & Ask Questions**  
-- 🔍 **Semantic Search with Embeddings**  
-- 🤖 **AI Answer Generation (Gemini API)**  
-- 🧠 **Automatic Mindmap Generation**  
-- 📌 **Key Points Extraction**  
-- 💬 **Per-user Chat History**  
-- ⚡ **Fast Retrieval using FAISS**  
+* 🔐 **User Authentication (Login/Register)**
+* 📄 **Upload PDF & Ask Questions**
+* 🔍 **Semantic Search with Embeddings**
+* 🤖 **AI Answer Generation (Gemini API)**
+* 🧠 **Automatic Mindmap Generation**
+* 📌 **Key Points Extraction**
+* 💬 **Per-user Chat History**
+* ⚡ **Fast Retrieval using FAISS**
 
 ---
 
 ## 🧠 Tech Stack
 
-| Technology | Purpose |
-|----------|--------|
-| Streamlit | Frontend UI |
-| Google Gemini API | Generative AI |
-| Sentence Transformers | Embeddings |
-| FAISS | Vector Search |
-| PyPDF | PDF Processing |
-| Python | Backend Logic |
+| Technology            | Purpose        |
+| --------------------- | -------------- |
+| Streamlit             | Frontend UI    |
+| Google Gemini API     | Generative AI  |
+| Sentence Transformers | Embeddings     |
+| FAISS                 | Vector Search  |
+| PyPDF                 | PDF Processing |
+| Python                | Backend Logic  |
 
 ---
 
 ## 📁 Project Structure
 
-
+```
 smart-academic-assistant/
 │
 ├── app/
-│ ├── config.py
-│ ├── auth.py
-│ ├── services.py
+│   ├── config.py
+│   ├── auth.py
+│   ├── services.py
 │
-│ ├── core/
-│ │ ├── embeddings.py
-│ │ ├── retrieval.py
-│ │ ├── vector_store.py
+│   ├── core/
+│   │   ├── embeddings.py
+│   │   ├── retrieval.py
+│   │   ├── vector_store.py
 │
-│ ├── utils/
-│ │ ├── pdf_utils.py
+│   ├── utils/
+│   │   ├── pdf_utils.py
 │
 ├── data/
-│ ├── users.json
+│   ├── users.json
 │
 ├── app.py
 ├── requirements.txt
@@ -86,16 +94,18 @@ smart-academic-assistant/
 ├── .gitignore
 ├── LICENSE
 ├── README.md
-
+```
 
 ---
 
 ## 📸 Screenshots
 
 ### 🔐 Login Page
+
 ![Login](assets/login.png)
 
 ### 🧠 App Interface
+
 ![App](assets/app_interface.png)
 
 ---
@@ -103,54 +113,82 @@ smart-academic-assistant/
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the repo
+
 ```bash
 git clone https://github.com/22AD040/smart-academic-assistant.git
-
 cd smart-academic-assistant
+```
 
-2️⃣ Create virtual environment
+### 2️⃣ Create virtual environment
+
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
-3️⃣ Install dependencies
+### 3️⃣ Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Add environment variables
-Create .env file:
+### 4️⃣ Add environment variables
+
+Create `.env` file:
+
+```env
 GEMINI_API_KEY=your_api_key_here
+```
 
-▶️ Run the App
+---
+
+## ▶️ Run the App
+
+```bash
 streamlit run app.py
+```
 
-🌐 Deployment (Streamlit Cloud)
-Push code to GitHub
-Go to Streamlit Cloud
-Add secrets:
+---
+
+## 🌐 Deployment (Streamlit Cloud)
+
+* Push code to GitHub
+* Go to Streamlit Cloud
+* Add secrets:
+
+```
 GEMINI_API_KEY = your_api_key
-Deploy 🚀
+```
 
-🔒 Security
-API keys stored securely using .env / Streamlit Secrets
-No cross-user chat leakage (session-based isolation)
-.gitignore prevents sensitive data exposure
+* Deploy 🚀
 
 ---
 
-📌 Future Improvements
-🔐 Password hashing (bcrypt)
-📊 Better mindmap visualization (graph-based)
-🌍 Multi-language support
-🧠 AI-powered summarization improvements
-👩‍💻 Author
+## 🔒 Security
+
+* API keys stored securely using `.env` / Streamlit Secrets
+* No cross-user chat leakage (session-based isolation)
+* `.gitignore` prevents sensitive data exposure
 
 ---
 
-Ratchita B
-🎓 Artificial Intelligence & Data Science 
+## 📌 Future Improvements
+
+* 🔐 Password hashing (bcrypt)
+* 📊 Better mindmap visualization (graph-based)
+* 🌍 Multi-language support
+* 🧠 AI-powered summarization improvements
 
 ---
 
-⭐ Support
+## 👩‍💻 Author
+
+**Ratchita B**
+🎓 Artificial Intelligence & Data Science
+
+---
+
+## ⭐ Support
 
 If you like this project:
 
@@ -159,8 +197,6 @@ If you like this project:
 
 ---
 
-📜 License
+## 📜 License
 
-This project is licensed under the MIT License.
-
----
+This project is licensed under the **MIT License**.
